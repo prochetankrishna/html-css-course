@@ -1,0 +1,268 @@
+/* TWENTY EIGHT */
+* {
+  /* border-top: 10px solid #17202a; */
+  /* THIRTY ONE */
+  margin: 0;
+  padding: 0;
+}
+
+/* TWENTY SIX */
+body {
+  font-family: sans-serif;
+  color: #17202a;
+
+  border-top: 10px solid #17202a;
+}
+
+/* EIGHTEEN */
+.main-header {
+  background-color: #f4f6f6;
+  /* BOX */
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  /* THIRTY THREE */
+  margin-bottom: 60px;
+  /* FORTY ONE */
+  height: 80px;
+}
+
+/* THIRTY FIVE */
+.post-header {
+  margin-bottom: 40px;
+}
+
+/* NINETEEN */
+aside {
+  background-color: #f4f6f6;
+  /* border: 5px solid #34495e; */
+  border-top: 5px solid #34495e;
+  border-bottom: 5px solid #34495e;
+  /* border-left: 5px solid #34495e;
+  border-right: 5px solid #34495e; */
+  /* THIRTY TWO */
+  padding: 50px 0;
+  /* FORTY */
+  width: 500px;
+}
+
+/* THIRTY EIGHT */
+article {
+  margin-bottom: 60px;
+}
+/* SEVEN
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif; */
+/* SEVENTEEN */
+/* color: #17202a;
+} */
+
+/* SIXTEEN */
+h1,
+h2,
+h3 {
+  color: #05445e;
+}
+
+/* FIRST */
+h1 {
+  /* color: navy; */
+  /* FIFTEEN color: #05445e; */
+  font-size: 26px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* SECOND */
+h2 {
+  font-size: 40px;
+  /* font-family: sans-serif; */
+  /* THIRTY FOUR */
+  margin-bottom: 30px;
+}
+
+/* THIRD */
+p {
+  font-size: 22px;
+  /* font-family: sans-serif; */
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* THIRTY SEVEN */
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* FOUR */
+h3 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+  /* THIRTY EIGHT */
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+/* FIVE */
+h4 {
+  font-size: 20px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* SIX */
+/* No Styling of OL and UL, only LI */
+li {
+  font-size: 20;
+  /* line-height: 1.5; */
+  /* font-family: sans-serif; */
+  /* BOX */
+  margin-bottom: 10px;
+}
+
+/* TWENTY NINE */
+/* BOX */
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* DESCENDANT SELECTOR */
+/* EIGHT */
+/* footer p {
+  font-size: 16px;
+} */
+
+/* TEST PARAGRAPH EXAMPLE */
+/* NINE */
+/* header p {
+  font-style: italic;
+} */
+/* article header p {
+  font-style: italic;
+} */
+
+/* TEN */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* ELEVEN */
+#copyright {
+  font-size: 16px;
+}
+
+/* TWELVE */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* THIRTEEN
+ul {
+  list-style: none;
+} */
+
+/* FOURTEEN */
+.related-list {
+  list-style: none;
+}
+
+/* TWENTY
+.first-li {
+  font-weight: bold;
+} */
+
+/* TWENTY ONE */
+li:first-child {
+  font-weight: bold;
+}
+
+/* TWENTY TWO */
+li:last-child {
+  font-style: italic;
+}
+
+/* TWENTY THREE odd even also*/
+li:nth-child(2) {
+  text-decoration: underline solid black;
+}
+
+/* TWENTY FOUR NOT WORK */
+/* article p:first-child {
+  color: red;
+} */
+
+/* TWENTY FIVE
+article p:last-child {
+  color: red;
+} */
+
+/* TWENTY SIX */
+a:link {
+  color: #34495e;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #34495e;
+}
+
+a:hover {
+  color: #85929e;
+  text-decoration: underline solid #85929e;
+  font-weight: bold;
+}
+
+a:active {
+  font-size: 40px;
+  color: black;
+}
+
+/* TWENTY SEVEN */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: #17202a !important;
+} */
+
+/* TWENTY SEVEN */
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+nav {
+  font-size: 18px;
+}
+
+/* FORTY TWO */
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* FORTY THREE */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
